@@ -14,15 +14,15 @@
 
     <TextView
         android:id="@+id/swimming"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
-        android:paddingBottom="200dp"
+        android:paddingBottom="100dp"
         android:paddingLeft="10dp"
-        android:paddingTop="60dp"
+        android:paddingTop="50dp"
         android:text="Swimming Lessons"
         android:textColor="@android:color/background_light"
-        android:textSize="38sp"
+        android:textSize="33sp"
         android:textStyle="bold" />
 
     <TextView
@@ -32,8 +32,9 @@
         android:layout_below="@id/swimming"
         android:fontFamily="monospace"
         android:paddingLeft="10dp"
-        android:text="John Smith"
-        android:textSize="25dp" />
+        android:text="@string/JohnSmith"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tel"
@@ -53,7 +54,7 @@
         android:fontFamily="monospace"
         android:paddingLeft="10dp"
         android:text="john.smith32@gmai.com"
-        android:textSize="25dp" />
+        android:textSize="23dp" />
 
     <TextView
         android:id="@+id/location"
@@ -63,7 +64,7 @@
         android:fontFamily="monospace"
         android:paddingLeft="10dp"
         android:text="London and Birmingham"
-        android:textSize="25dp" />
+        android:textSize="23dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -73,5 +74,6 @@
         android:paddingLeft="10dp"
         android:paddingTop="35dp"
         android:text="All ages welcome"
+        android:textStyle="bold"
         android:textSize="25dp" />
 </RelativeLayout>
