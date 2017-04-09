@@ -5,60 +5,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.ultimaker.businesscard.MainActivity">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/swimming"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/swimming" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/swimming"
-        android:paddingLeft="10dp"
-        android:paddingTop="70dp"
-        android:text="Swimming Lessons"
-        android:textSize="38sp"
-        android:textColor="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="casual"
+        android:paddingBottom="200dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="60dp"
+        android:text="Swimming Lessons"
+        android:textColor="@android:color/background_light"
+        android:textSize="38sp"
         android:textStyle="bold" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/john"
-        android:text="John Smith"
-        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/swimming"
-        android:paddingLeft="10dp"/>
+        android:fontFamily="monospace"
+        android:paddingLeft="10dp"
+        android:text="John Smith"
+        android:textSize="25dp" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/john"
+        android:fontFamily="monospace"
+        android:paddingLeft="10dp"
         android:text="Telephone: 0789123545"
-        android:textSize="25dp"
-        android:paddingLeft="10dp"/>
+        android:textSize="25dp" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/email"
-        android:layout_below="@+id/tel"
-        android:text="Email: john.smith32@gmai.com"
-        android:textSize="25dp"
-        android:paddingLeft="10dp" />
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tel"
+        android:fontFamily="monospace"
+        android:paddingLeft="10dp"
+        android:text="john.smith32@gmai.com"
+        android:textSize="25dp" />
+
+    <TextView
         android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/email"
-        android:text="London"
-        android:textSize="25dp"
-        android:paddingLeft="10dp" />
+        android:fontFamily="monospace"
+        android:paddingLeft="10dp"
+        android:text="London and Birmingham"
+        android:textSize="25dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/location"
+        android:fontFamily="monospace"
+        android:paddingLeft="10dp"
         android:paddingTop="35dp"
         android:text="All ages welcome"
-        android:textSize="25dp"
-        android:paddingLeft="10dp" />
+        android:textSize="25dp" />
 </RelativeLayout>
