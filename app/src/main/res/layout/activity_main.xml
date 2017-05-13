@@ -33,7 +33,7 @@
         android:fontFamily="monospace"
         android:paddingLeft="10dp"
         android:text="@string/JohnSmith"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <TextView
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/john"
         android:fontFamily="monospace"
-        android:paddingLeft="10dp"
+        android:paddingLeft="10sp"
         android:text="Telephone: 0789123545"
         android:textSize="25dp" />
 
@@ -54,7 +54,7 @@
         android:fontFamily="monospace"
         android:paddingLeft="10dp"
         android:text="john.smith32@gmai.com"
-        android:textSize="23dp" />
+        android:textSize="23sp" />
 
     <TextView
         android:id="@+id/location"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/email"
         android:fontFamily="monospace"
-        android:paddingLeft="10dp"
+        android:paddingLeft="10sp"
         android:text="London and Birmingham"
         android:textSize="23dp" />
 
@@ -75,5 +75,5 @@
         android:paddingTop="35dp"
         android:text="All ages welcome"
         android:textStyle="bold"
-        android:textSize="25dp" />
+        android:textSize="25sp" />
 </RelativeLayout>
